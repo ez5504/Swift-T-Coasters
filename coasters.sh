@@ -9,3 +9,5 @@ export WORKER_LOG_DIR=/home/jake/swift-files/swift-logs
 export TURBINE_COASTER_WORKERS=1
 
 coaster-service -nosec -port ${SERVICE_PORT}
+
+export TURBINE_COASTER_CONFIG="jobManager=local,maxParallelTasks=4,coasterServiceURL=${IPADDR}:${SERVICE_PORT}"
