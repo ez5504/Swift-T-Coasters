@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#PBS -l ncpus=1
+#PBS -l nodes=1:ppn=1
+#PBS -m ea
+#PBS -M ez5504@wayne.edu
+#PBS -o /wsu/home/ez/ez55/ez5504/nxrs-out
+#PBS -e /wsu/home/ez/ez55/ez5504/nxrs-err
+
+turbine /wsu/home/ez/ez55/ez5504/go.tic

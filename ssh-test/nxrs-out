@@ -1,0 +1,16 @@
+   0.000 MODE: WORK
+   0.001 WORK TYPES: WORK
+   0.001 WORKERS: 1 RANKS: 0 - 0
+   0.001 SERVERS: 1 RANKS: 1 - 1
+   0.001 WORK WORKERS: 1 RANKS: 0 - 0
+   0.000 MODE: SERVER
+   0.026 function:swift:constants
+   0.026 enter function: __entry
+   0.026 exec: ssh -i /wsu/home/ez/ez55/ez5504/.ssh/gonopass ez5504@cli.globusonline.org scp ci#beagle:/lustre/beagle2/jmtcollege/test.txt ez5504#nxrs:/home/jmtcollege {}
+   0.027 shell: ssh -i /wsu/home/ez/ez55/ez5504/.ssh/gonopass ez5504@cli.globusonline.org scp ci#beagle:/lustre/beagle2/jmtcollege/test.txt ez5504#nxrs:/home/jmtcollege 
+Task ID: 5e3db8d4-3bbb-11e5-acaf-22000b92c6ec
+Type <CTRL-C> to cancel or bg<ENTER> to background
+[                                                               ] 0/1 0.00 mbps[                                                               ] 0/1 0.00 mbps[                                                               ] 0/1 0.00 mbps[XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX] 1/1 0.00 mbps
+   5.035 shell command duration: 5.009
+   5.136 turbine finalizing
+   5.115 turbine finalizing
