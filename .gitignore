@@ -3,3 +3,8 @@ cps-*
 *.tic
 hello.txt
 testing.txt
+bin/
+workerlogs/
+file.swift
+test.swift
+coaster-conf.conf
