@@ -1,0 +1,8 @@
+#/bin/bash
+killall -u $USER java -9
+mv cps* log-files/
+rm hello.txt
+rm cscript*.pl
+export WORK_DIR=$PWD
+source setup.sh
+turbine -n 4 sim.tic
